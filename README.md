@@ -19,20 +19,22 @@ Perform new analyses:
 - A ride-sharing summary DataFrame by city type 
 - A multiple-line chart that shows the total weekly fares for each city type  
 
-## Resources
+## Resources:
+
 Data Source:
 [city_data.csv](Resources/city_data.csv)
+
 [ride_data.csv](Resources/ride_data.csv)
 
 Software: Pythn 3.6.1, Pandas, Matplotlib, Jupyter notebook
 
 ## Analyses and Results:
 
-For this analyses, Python code [PyBer_Challenge.pynb](/PyBer_Challenge.pynb)
+For this analyses, Python code [PyBer_Challenge.ipynb](/PyBer_Challenge.ipynb) was written using Python DataFrame and Python Matplotlib. 
 
 ![PyBer_summary_df.PNG](analysis/PyBer_summary_df.PNG)
 
-![Finalplot.PNG](analysis/Finalplot.PNG)
+![finalplot.PNG](analysis/finalplot.PNG)
 
 Total Rides was the highest in the urban setting, followed by Suburban then by Rural.
 Total Drivers was the highest in the urban setting, followed by Suburban then by Rural.

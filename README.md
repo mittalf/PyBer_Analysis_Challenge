@@ -22,25 +22,26 @@ Perform new analyses:
 ## Resources:
 
 Data Source:
+
 [city_data.csv](Resources/city_data.csv)
 
 [ride_data.csv](Resources/ride_data.csv)
 
-Software: Pythn 3.6.1, Pandas, Matplotlib, Jupyter notebook
+Software: Pythn 3.6.1, Pandas, Matplotlib 3.3.4, Jupyter notebook, Anaconda.  Anaconda "PythonData" development environment was created for this project.
 
 ## Analyses and Results:
 
-For this analyses, Python code [PyBer_Challenge.ipynb](/PyBer_Challenge.ipynb) was written using Python DataFrame and Python Matplotlib. 
+For this analyses, Python code [PyBer_Challenge.ipynb](/PyBer_Challenge.ipynb) was written using Python DataFrame and Python Matplotlib.  Groupby(), count(), and sum() functions were on the dataframe columns to find the total number of rides, total number of drivers and average fare per ride and average fare per driverfor each city type. Pivot(), resample(), info() were applied to a dataframe to create a new pivot dataframe which is used for creating the line chart. Multiple-line chart representing each city type was plotted using the dataframe plot function using "fivethirtyeight graph style.
 
 ![PyBer_summary_df.PNG](analysis/PyBer_summary_df.PNG)
 
-![finalplot.PNG](analysis/finalplot.PNG)
+![finalplot.png](analysis/finalplot.png)
 
-Total Rides was the highest in the urban setting, followed by Suburban then by Rural.
-Total Drivers was the highest in the urban setting, followed by Suburban then by Rural.
-Total Fares collected was in the urban setting, followed by Suburban then by Rural.
-Average Fare per Ride highest in the Rural area, followed by Suburban then by Urban
-Average Fare per Driver was in the urban setting, followed by Suburban then by Rural.
+- Total Rides was the highest in the urban setting, followed by Suburban then by Rural.
+- Total Drivers was the highest in the urban setting, followed by Suburban then by Rural.
+- Total Fares collected was in the urban setting, followed by Suburban then by Rural.
+- Average Fare per Ride highest in the Rural area, followed by Suburban then by Urban
+- Average Fare per Driver was in the Urban setting, followed by Suburban then by Rural.
 
 ## Summary:
 
@@ -48,4 +49,6 @@ Three business recommendations to the CEO for addressing any disparities among t
 - Increase the number of drivers in the Rural area
 - Decrease the fare per ride in the Rural area
 - Inrease the number of drivers in the Suburban area
+- The line chart shows that at the end of April, the Total Fare in Suburban is increasing while it is decreasing in Urban and Rural area, therefore more drivers should be allocated here.
+
 
